@@ -14,7 +14,6 @@
 
 
 
-
 //II-1.Write a program which tells the number of days in a month, now consider leap year.
 //const prompt = require("prompt-sync")();
 //let monthname=prompt('Enter the monthname ')
