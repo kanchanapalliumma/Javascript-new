@@ -171,25 +171,6 @@
 // }
 // console.log(factorial(5))
 
-//10.Call your function isEmpty, it takes a parameter and it checks if it is empty or not
-// function isEmpty(parm1) {
-//     if (parm1 === null || parm1 === undefined) {
-//       return true;
-//     }
-  
-//     if (typeof parm1 === 'string' && parm1.trim() === '') {
-//       return true;
-//     }
-  
-//     if (Array.isArray(parm1) || typeof parm1 === 'object') {
-//       return Object.keys(parm1).length === 0;
-//     }
-  
-//     return false;
-//   }
-//   console.log(isEmpty(''));
-//   console.log(isEmpty[1,2,3])
-
 
 //11.Call your function sum, it takes any number of arguments and it returns the sum.
 // function sumofNums(){
