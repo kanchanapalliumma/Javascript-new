@@ -175,6 +175,7 @@
 //11.Call your function sum, it takes any number of arguments and it returns the sum.
 // function sumofNums(){
 //     let sum=0
+
 //     for (let i=0;i<arguments.length;i++){
 //         sum=sum+arguments[i]
 //     }
