@@ -1,0 +1,40 @@
+.inside-div{
+    margin-left: 660px;
+    color: rgb(23, 203, 23);
+
+}
+h3{
+    margin-top: -20px;
+    font-size: 22px;
+    color: black;
+    font-weight: 200;
+}
+h1{
+    letter-spacing: 1.5px;
+}
+h5{
+    margin-left: 40px;
+    font-size: 20px;
+    color: black;
+    font-weight: 300;
+    margin-top: -15px;
+}
+#uma-two{
+    margin-left: 500px;
+}
+input{
+    padding: 12px;
+    padding-right: 270px;
+}
+button{
+    padding: 9px 40px;
+    font-size: 20px;
+    border: 0 solid ;
+    color: white;
+    background-color: rgb(23, 203, 23);
+}
+#table{
+    margin-left: 450px;
+    margin-top: 20px;
+
+}

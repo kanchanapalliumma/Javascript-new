@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="level2.csss">
+</head>
+<body>
+    <div id="form" class="form">
+        <P id="uma" style="padding: 25px;border-radius: 15px;border: 2px solid black;;margin: 200px;font-size: 40px;margin-left: 400px;margin-right: 400px;text-align: center;
+        box-shadow: -1px 0px 10px; "><span id="uma" > Pressed any keyboard key </span></P>
+        <P id="uma-one" style="padding: 70px;border-radius: 15px;border: 2px solid black;;margin:40px;font-size: 40px;margin-left: 600px;margin-top: -90px;margin-right: 600px;
+            box-shadow: -1px 0px 10px; "><span id="uma"></span></P>
+    <!-- <input type="p" id="uma"> -->
+    <!-- <input type="number"> --></div>
+
+    <script>
+        const Displaykey=document.getElementById('uma')
+        document.addEventListener("keydown",function(event){
+            const pressedkey=event.target
+            Displaykey.innerHTML=`you pressed<span></span>`;
+            let colourchange=document.querySelector("span")
+            colourchange.textContent=pressedkey
+            colourchange.style.color="green"
+            // Displaykey.textContent="you pressed "+pressedkey
+        })
+
+        const displaynum=document.getElementById("uma-one")
+        document.addEventListener("keydown",function(event){
+            const showvalue=event.keyCode
+            displaynum.textContent=showvalue
+        })
+        
+    </script>
+</body>
+</html>

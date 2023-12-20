@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Display Pressed Key</title>
+</head>
+<body>
+  <h1>Press a key</h1>
+  <p>Pressed Key: <span id="displayKey"></span></p>
+
+  <script src="script.js"></script>
+  <script>
+    const displayKeyElement = document.getElementById('displayKey');
+
+// Add a keydown event listener to the document
+document.addEventListener('keydown', function(event) {
+  // Get the pressed key and display it
+  const pressedKey = event.key;
+  displayKeyElement.textContent = pressedKey;
+});
+  </script>
+</body>
+</html>

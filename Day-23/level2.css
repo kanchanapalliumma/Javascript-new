@@ -1,0 +1,17 @@
+body{
+    font-family: tahoma;
+}
+#form{
+    width:250px;
+    margin: 100px auto 0 auto;
+    border: 2px solid #000 ;
+    border-radius: 15px;
+    padding: 25px 50px;
+    box-shadow: -2px 2px 15px;
+}
+#form{
+    margin: 400px;
+}
+/* #uma-one{
+    font-size: 90px;
+} */

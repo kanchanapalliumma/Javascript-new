@@ -1,4 +1,5 @@
 const countries=require('./countries')
+console.log(countries)
 
 //1.Destructure the countries object print name, capital, population and languages of all countries
 // countries.forEach((user) =>{ 

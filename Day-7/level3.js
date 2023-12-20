@@ -136,6 +136,7 @@
 //     const generateColors=(type)=>{
 //         return type=="hexa" ? generatehexacolor() : rgbColorGenerator()
 
+
 //     }
 //     if (count===1){
 //         return generateColors(type)
