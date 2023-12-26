@@ -1,0 +1,45 @@
+h1{
+    color: orange;
+    font-weight: 200;
+    margin-left: 470px;
+}
+#para-one{
+    margin-left: 520px;
+}
+.div-container{
+    margin-left: 500px;
+}
+.parent-one{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+#names-one,
+#bar-one,
+#inside-bar,
+#percentage-one{
+    display: flex;
+    flex-direction: column;
+}
+#inside-bar{
+    margin-bottom: 100px;
+}
+.information{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.parent-two{
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+}
+#names-two{
+    margin-top: -15px;
+    padding-right: 80px;
+}
+#percentage-two{
+    display: flex;
+    flex-direction: column;
+    margin-left: -300px;
+    gap: 17px;
+}
