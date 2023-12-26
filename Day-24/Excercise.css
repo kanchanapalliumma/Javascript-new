@@ -1,37 +1,63 @@
+*{
+    /* background-image:url(images/galaxy.gif); */
+    /* color: white; */
+}
 h1{
-    margin-left: 300px;
+    margin-left: 450px;
     letter-spacing: 2px;
     font-style:normal;
     word-spacing: 1px;
     margin-top: -0px;
+    color: white;
 }
 .inside-div{
-    margin-left: 410px;
+    margin-left: 540px;
     margin-top: 45px;
 }
 input{
     padding: 8px 18px;
+    background-color: white;
+    color: gray;
+    border: 1px solid white;
 }
 select{
     padding: 9px 14px;
     color: gray;
+    background-color: white;
+    border: 1px solid white;
 }
 button{
-    padding: 8px 0px;
+    padding: 10px 10px;
+    background-color: rgb(152, 147, 147);
+    color: white;
+    border:1px solid white 
 }
 #flex-section{
-    padding: 30px;
-    background-color: rgb(188, 183, 183);
+    padding: 15px;
+    background-color: rgb(238, 231, 231);
     margin-top: 20px;
     margin-left: 200px;
     margin-right: 200px;
-    /* display: flex;
-    gap: 30px; */
+    display: flex;
+    gap: 30px; 
+    margin-bottom: -10px;
 }
 #message{
-    padding: 15px 0px;
+    padding: 45px 135px;
     background-color: gray;
     text-align: center;
-    align-items:center;
-    margin: 0px 120px;
+    margin: 20px 0px;
+    color: white;
+    /* align-items:center; */
+    /* margin: 200px 120px; */
+    margin-left: 280px;
+    /* padding-bottom: -100px; */
+    /* display:inline; */
+}
+#image-container{
+    margin-top: 40px;
+    margin-left: 30px;
+    height: 100px;
+    width: 100px;
+    /* margin-bottom: -160px; */
 }

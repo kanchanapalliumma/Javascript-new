@@ -13,8 +13,14 @@ function display(){
                 hidingmessage()
                 imageplanet(planet)
                 const newplannet=document.getElementById("flex-container")
-                newplannet.style.display="flex"
-                newplannet.style.flexDirection="column"
+                // newplannet.style.marginBottom="-20p"
+                // newplannet.style.display="flex"
+                // newplannet.style.flexDirection="row"
+                const parent=document.getElementById("message")
+                parent.style.padding="50px 200px"
+                parent.style.margin="250px 460px"
+                parent.style.marginRight="60px"
+
             }
         }
 }
@@ -72,6 +78,7 @@ function imageplanet(planet) {
     const mass=document.getElementById("input-field").value
     const weight=document.getElementById("message")
     // const gravityforce=(6.674)*(10)**(-11)
+    
 
     if (planet === "MERCURY") {
         const img = document.createElement("img");
@@ -82,7 +89,12 @@ function imageplanet(planet) {
 
         const weight=document.getElementById("message")
         const weightinnewton=document.createElement("weight-in-newton")
-        weightinnewton.innerHTML=mass*(3.59)
+        weightinnewton.innerHTML="Weight 0f the object on mercury "+mass*(3.59)+" in Newtons"
+        weightinnewton.style.fontSize="20px"
+        weightinnewton.style.lineHeight="35px"
+        // weightinnewton.style.borderRadius="50%"
+        // weight.style.backgroundColor="grey"
+        // weight.style.border="1px solid black"
         weight.innerHTML=""
         weight.appendChild(weightinnewton)
 
@@ -96,7 +108,9 @@ function imageplanet(planet) {
 
         const weight=document.getElementById("message")
         const weightinnewton=document.createElement("weight-in-newton")
-        weightinnewton.innerHTML=mass*(8.87)
+        weightinnewton.innerHTML="Weight 0f the object on venus "+mass*(8.87)+" in Newtons"
+        weightinnewton.style.fontSize="20px"
+        weightinnewton.style.lineHeight="35px"
         weight.innerHTML=""
         weight.appendChild(weightinnewton)
     }else if (planet==="EARTH"){
@@ -108,7 +122,9 @@ function imageplanet(planet) {
 
         const weight=document.getElementById("message")
         const weightinnewton=document.createElement("weight-in-newton")
-        weightinnewton.innerHTML=mass*(9.81)
+        weightinnewton.innerHTML="Weight 0f the object on earth "+mass*(9.81)+" in Newtons"
+        weightinnewton.style.fontSize="20px"
+        weightinnewton.style.lineHeight="35px"
         weight.innerHTML=""
         weight.appendChild(weightinnewton)
 
@@ -121,7 +137,9 @@ function imageplanet(planet) {
 
         const weight=document.getElementById("message")
         const weightinnewton=document.createElement("weight-in-newton")
-        weightinnewton.innerHTML=mass*(1.62)
+        weightinnewton.innerHTML="Weight 0f the object on moon "+mass*(1.62)+" in Newtons"
+        weightinnewton.style.fontSize="20px"
+        weightinnewton.style.lineHeight="35px"
         weight.innerHTML=""
         weight.appendChild(weightinnewton)
     }else if (planet==="MARS"){
@@ -133,7 +151,9 @@ function imageplanet(planet) {
 
         const weight=document.getElementById("message")
         const weightinnewton=document.createElement("weight-in-newton")
-        weightinnewton.innerHTML=mass*(3.77)
+        weightinnewton.innerHTML="Weight 0f the object on mars "+mass*(3.77)+" in Newtons"
+        weightinnewton.style.fontSize="20px"
+        weightinnewton.style.lineHeight="35px"
         weight.innerHTML=""
         weight.appendChild(weightinnewton)
     }else if (planet==="JUPITER"){
@@ -145,7 +165,9 @@ function imageplanet(planet) {
 
         const weight=document.getElementById("message")
         const weightinnewton=document.createElement("weight-in-newton")
-        weightinnewton.innerHTML=mass*(25.95)
+        weightinnewton.innerHTML="Weight 0f the object on jupiter "+mass*(25.95)+" in Newtons"
+        weightinnewton.style.fontSize="20px"
+        weightinnewton.style.lineHeight="35px"
         weight.innerHTML=""
         weight.appendChild(weightinnewton)
     }else if (planet==="SATURN"){
@@ -157,7 +179,9 @@ function imageplanet(planet) {
 
         const weight=document.getElementById("message")
         const weightinnewton=document.createElement("weight-in-newton")
-        weightinnewton.innerHTML=mass*(11.08)
+        weightinnewton.innerHTML="Weight 0f the object on saturn "+mass*(11.08)+" in Newtons"
+        weightinnewton.style.fontSize="20px"
+        weightinnewton.style.lineHeight="35px"
         weight.innerHTML=""
         weight.appendChild(weightinnewton)
     }else if (planet==="URANUS"){
@@ -169,7 +193,9 @@ function imageplanet(planet) {
 
         const weight=document.getElementById("message")
         const weightinnewton=document.createElement("weight-in-newton")
-        weightinnewton.innerHTML=mass*(10.67)
+        weightinnewton.innerHTML="Weight 0f the object on uranus "+mass*(10.67)+" in Newtons"
+        weightinnewton.style.fontSize="20px"
+        weightinnewton.style.lineHeight="35px"
         weight.innerHTML=""
         weight.appendChild(weightinnewton)
     }else if (planet==="NEPTUNE"){
@@ -181,7 +207,9 @@ function imageplanet(planet) {
 
         const weight=document.getElementById("message")
         const weightinnewton=document.createElement("weight-in-newton")
-        weightinnewton.innerHTML=mass*(14.07)
+        weightinnewton.innerHTML="Weight 0f the object on neptune "+mass*(14.07)+" in Newtons"
+        weightinnewton.style.fontSize="20px"
+        weightinnewton.style.lineHeight="35px"
         weight.innerHTML=""
         weight.appendChild(weightinnewton)
     }else if (planet==="PLUTO"){
@@ -193,15 +221,19 @@ function imageplanet(planet) {
 
         const weight=document.getElementById("message")
         const weightinnewton=document.createElement("weight-in-newton")
-        weightinnewton.innerHTML=mass*(0.42)
+        weightinnewton.innerHTML="Weight 0f the object on pluto "+mass*(0.42)+" in Newtons"
+        weightinnewton.style.fontSize="20px"
+        weightinnewton.style.lineHeight="35px"
         weight.innerHTML=""
         weight.appendChild(weightinnewton)
     }else{
         const img = document.createElement("img");
         imageContainer.innerHTML = '';
+        imageContainer.appendChild("img")
 
         const weightinnewton=document.createElement("weight-in-newton")
         weight.innerHTML=""
+        weight.appendChild(weight)
 
     }
 }

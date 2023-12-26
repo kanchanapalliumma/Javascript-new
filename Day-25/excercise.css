@@ -40,6 +40,6 @@ h1{
 #percentage-two{
     display: flex;
     flex-direction: column;
-    margin-left: -300px;
+    /* margin-left: -300px; */
     gap: 17px;
 }

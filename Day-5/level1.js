@@ -66,26 +66,28 @@
 //}
 
 //14.Filter out companies which have more than one 'o' without the filter method
-//const itcompanies=['facebook','Google','Microsoft','Apple','IBM','Oracle','Amazon']
-//const companies=[];
-//i=0
-//while (i<itcompanies.length){
-    //const company=itcompanies[i];
-    //let count=0;
-    //let j=0;
-    //while (j<company.length){
-        //if (company[j]=="o"){
-            //count=count+1;
-        //}
-        //j=j+1;
-    //}
-    //if (count>=2){
-        //companies.push(company);
-    //}
-    //i=i+1
-//}
-//console.log(companies)  
+const itcompanies=['facebook','Google','Microsoft','Apple','IBM','Oracle','Amazon']
+const companies=[];
+i=0
+while (i<itcompanies.length){
+    const company=itcompanies[i];
+    let count=0;
+    let j=0;
+    while (j<company.length){
+        if (company[j]=="o"){
+            count=count+1;
+        }
+        j=j+1;
+    }
+    if (count>=2){
+        companies.push(company);
+    }
+    i=i+1
+}
+console.log(companies)  
 
+
+itcompanies
 
 //15.Sort the array using sort() method
 //const arr=itcompanies.sort()

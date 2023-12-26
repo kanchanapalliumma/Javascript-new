@@ -5,5 +5,5 @@ for (let country of countries){
     newlanguages.forEach((language) => newset.push(language))
 }
 let setoflanguages=new Set(newset)
-// console.log(setoflanguages)
+console.log(setoflanguages)
 // console.log(setoflanguages.size)
