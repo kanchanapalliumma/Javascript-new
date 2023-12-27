@@ -58,10 +58,10 @@ input{
 }
 .first-div{
     background-image:linear-gradient(rgba(120, 120, 195, 0.7),rgba(34, 47, 84, 0.7)),url(images/globe-2.jpg);
-    background-size: 1350px 750px;
+    background-size: 1650px 900px;
     background-position: 1px;
-    height: 450px;
-    margin-top: -30px;
+    height: 500px;
+    margin-top: -20px;
 }
 .newelement{
     padding: 40px 30px;
@@ -76,8 +76,6 @@ input{
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     font-weight: 500px;
-    
-
 }
 .country-div{
     display: flex;
