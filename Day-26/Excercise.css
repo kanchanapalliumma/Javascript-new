@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Poppins:wght@200;300;400&display=swap');
+body{
+    width: 100vw;
+    margin: 0;
+    padding: 0 ;
+    font-family: 'Poppins', sans-serif;
+}
+#button,
+#side-button,
+#third-button{
+    background-color: rgb(156, 52, 208);
+    margin-left: -3px;
+    padding: 12px 13px;
+    font-size: 12px;
+    color: white;
+    margin-top: -10px;
+}
+#button:hover,
+#side-button:hover,
+#third-button{
+    background-color: blueviolet
+}
+h1{
+    letter-spacing: 16px;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+    font-size: 55px;  
+    font-family: 'Poppins', sans-serif;
+}
+h5{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: -35px;
+
+}
+.btn{
+    color: white;
+    text-align: center;
+}
+button{
+    border: 0px solid red;
+    margin: 5px;
+}
+input{
+    margin: 30px;
+    padding: 12px;
+    padding-right: 320px;
+    border-radius: 20px;
+    margin-left: -80px;
+    text-align:start;
+    margin-left: 10px;
+    border: 1px solid white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.first-div{
+    background-image:linear-gradient(rgba(120, 120, 195, 0.7),rgba(34, 47, 84, 0.7)),url(images/globe-2.jpg);
+    background-size: 1350px 750px;
+    background-position: 1px;
+    height: 450px;
+    margin-top: -30px;
+}
+.newelement{
+    padding: 40px 30px;
+    margin: 18px;
+    border-radius: 5px;
+    text-align: center;
+    height: 45px;
+    width: 70px;
+    color: white;
+    background-image:linear-gradient(rgba(79, 137, 173, 0.7),rgba(34, 47, 84, 0.7)),url(images/map_image.jpg);
+    background-size:cover;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500px;
+    
+
+}
+.country-div{
+    display: flex;
+    overflow-y: scroll;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+    padding-left: 130px;
+    padding-right: 110px;
+    list-style: none;
+}
+#undisplayed{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: -10px;
+}
+i{
+    font-size: 23px;
+}
+#third-button{
+    padding: 8px 12px;
+    height: 42px;
+    background-color:  rgb(156, 52, 208);
+}
+#search{
+    margin-left: -10px;
+    font-size: 25px;
+    padding-top: 50px;
+}

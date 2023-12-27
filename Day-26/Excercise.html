@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-26</title>
+    <link rel="stylesheet" href="Excercise.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="first-div">
+    <h1>WORLD COUNTRIES LIST</h1>
+    <h5>Total Number of countries:193</h5>
+    <p id="undisplayed"></p>
+
+    <div  class="btn">
+        <button id="button" onclick="focusInput()" >STARTING WORD</button>
+        <button id="side-button">SEARCH WITH ANY WORD</button>
+        <button id="third-button"><i class="fa-solid fa-arrow-down-a-z"></i></button>
+        <div>
+            <input type="text" id="myInput" onchange="countryDisplay()" placeholder="search country.."><i class="fa-solid fa-magnifying-glass" id="search"></i>
+            <label for="button"></label>
+        </div>
+    </div>
+    </div>
+    <ul class="country-div"></ul>
+
+
+
+
+    <script src="Excercise.js"></script>
+</body>
+</html>
